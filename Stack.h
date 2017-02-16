@@ -1,13 +1,13 @@
+#include "Node.h"
 using namespace std;
 
 class Stack{
  private:
-  char operation;
+  Node* head;
  public:
   Stack();
-  ~Stack()
-  char getOperation();
+  ~Stack();
   Node* peek();
-  Node* push();
+  Node* push(Node* newnode);
   Node* pop();
 };
