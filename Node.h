@@ -1,4 +1,6 @@
 #include <cstring>
+#ifndef NODE_H
+#define NODE_H
 using namespace std;
 
 class Node {
@@ -13,3 +15,5 @@ class Node {
   Node* getNext();
   char getInput();
 };
+
+#endif
