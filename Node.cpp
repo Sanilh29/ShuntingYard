@@ -23,5 +23,9 @@ char Node::getInput(){
   return input;
 }
 
+char Node::getData(){
+  return data;
+}
+
 
 

@@ -14,6 +14,7 @@ class Node {
   void setNext(Node* newnode);
   Node* getNext();
   char getInput();
+  char getData();
 };
 
 #endif
