@@ -2,8 +2,13 @@
 #include "Node.h"
 using namespace std;
 
-Node::Node(char data){
-  data =input;
+Node::Node(int input){
+  datai = input;
+  next = NULL;
+}
+
+Node::Node(char input){
+  datac = input;
   next = NULL;
 }
 
@@ -19,12 +24,12 @@ Node* Node::getNext(){
   return next;
 }
 
-char Node::getInput(){
-  return input;
+char Node::getDatac(){
+  return datac;
 }
 
-char Node::getData(){
-  return data;
+int Node::getDatai(){
+  return datai;
 }
 
 

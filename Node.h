@@ -5,16 +5,17 @@ using namespace std;
 
 class Node {
  private:
-  char data;
-  char input;
+  char datac;
+  int datai;
   Node* next;
   public:
-  Node(char data);
+  Node(char input);
+  Node(int input);
   ~Node();
   void setNext(Node* newnode);
   Node* getNext();
-  char getInput();
-  char getData();
+  char getDatac();
+  int getDatai();
 };
 
 #endif
